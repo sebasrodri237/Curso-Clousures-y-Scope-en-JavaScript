@@ -1,0 +1,17 @@
+{
+  "name": "clousures-scope",
+  "version": "1.0.0",
+  "description": "Curso de closures y scope en JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "closures",
+    "scope",
+    "javasctipt",
+    "platzi"
+  ],
+  "author": "Sebastian Rodriguez Ardila",
+  "license": "MIT"
+}
