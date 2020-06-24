@@ -37,9 +37,9 @@ const  anotherFunction = () =>{
     }
 }
 
-anotherFunction();/*Cuando declaro con var tendra un scope obtienen “function scope”
+anotherFunction();/*Cuando declaro con var tendra un scope “function scope”
 un scope de todo el bloque donde fueron declaradas, es decir del bloque contenedor
-del bloque donde esta var.
+del bloque donde esta var. Mejor conocido como closure.
 Entonces en cada iteracion del bucle, setTimeout apuntara a la misma variable i que
 al finalizar el ciclo for sera 10.
 Al usar let, a diferencia de var, hará que haya una i distinta para cada iteración 
